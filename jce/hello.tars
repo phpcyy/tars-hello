@@ -1,0 +1,7 @@
+module TestApp
+{
+    interface SayHello
+    {
+        int echoHello(string name, out string greeting);
+    };
+};
